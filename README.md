@@ -41,7 +41,7 @@ I. Gaffling – [@gaffling](https://twitter.com/gaffling) – pro@gaffling.com
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/gaffling/](https://github.com/gaffling/)x
+[https://github.com/gaffling/](https://github.com/gaffling/)
 
 
 ## Contributing
