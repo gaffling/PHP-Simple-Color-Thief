@@ -66,7 +66,7 @@ function simple_color_thief($img, $default='eee') {
 }
 
 // DEMO
-foreach(glob('./*.{jpg,png,gif}', GLOB_BRACE) as $i) {
+foreach(glob('./demo/*.{jpg,png,gif}', GLOB_BRACE) as $i) {
   echo '<div style="width:26%;padding:50px;background:#'.
   simple_color_thief($i,'f00').
   ';display:inline-block"><img style="height:200px" src="'.
