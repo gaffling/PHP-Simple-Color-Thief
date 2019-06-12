@@ -21,7 +21,7 @@ Will return the Hex Color: e0a654
 
 ## Requirements
 
-The only thin you need:
+The only things you need:
 
 ```sh
 PHP
