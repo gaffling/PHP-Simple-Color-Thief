@@ -41,7 +41,7 @@ https://homepages.cae.wisc.edu/~ece533/images/
 
 */
 
-function fast_color_thief($img, $default='eee') {
+function simple_color_thief($img, $default='eee') {
   if(@exif_imagetype($img)) { // CHECK IF IT IS AN IMAGE
     $type = getimagesize($img)[2]; // GET TYPE
     if ($type === 1) { // GIF
@@ -65,10 +65,10 @@ function fast_color_thief($img, $default='eee') {
   return dechex(imagecolorat($newImg, 0, 0)); // RETURN HEX COLOR
 }
 
-// DEMO IMAGE
+// DEMO
 foreach(glob('./*.{jpg,png,gif}', GLOB_BRACE) as $i) {
   echo '<div style="width:26%;padding:50px;background:#'.
-  fast_color_thief($i,'f00').
+  simple_color_thief($i,'f00').
   ';display:inline-block"><img style="height:200px" src="'.
   $i.'"></div>';
 }
