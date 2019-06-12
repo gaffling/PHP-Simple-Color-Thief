@@ -17,7 +17,7 @@ PHP:
 require 'color.php';
 $image = 'https://cdn.pixabay.com/photo/2012/11/24/07/43/colorful-67134_960_720.jpg'
 $default_color = 'ffffff';
-echo fast_color_thief($image, $default_color);
+echo simple_color_thief($image, $default_color);
 ```
 
 Will return the Hex Color: e0a654
