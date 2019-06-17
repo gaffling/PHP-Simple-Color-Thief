@@ -29,7 +29,7 @@ foreach(glob('./demo/*.{jpg,png,gif}', GLOB_BRACE) as $img) {
   echo '<img style="height:200px" src="'.$img.'">';
   echo '</div>';
 }
-´´´
+```
 
 Will show something like the Screenshot on this Page ;-)
 
