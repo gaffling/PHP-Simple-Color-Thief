@@ -43,9 +43,4 @@ PHP
 GD-Lib
 ```
 
-Infos about Images
-------------------
-
-https://homepages.cae.wisc.edu/~ece533/images/
-
-###### Copyright 2019 Igor Gaffling
+###### Copyright 2019-2021 Igor Gaffling
